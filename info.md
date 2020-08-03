@@ -1,6 +1,8 @@
 ### CWE Toolkit Information
-* [Incubator Project](#)
-* [Type of Project](#)
+
+- <i class="fas fa-flag" style="color:#2ADA08;"></i> Incubator Project
+- <i class="fas fa-toolbox" style="color:#233e81;"></i> Builder
+
 * [Version 0.0.0](#)
 * [Builder](#)
 * [Breaker](#)
@@ -10,8 +12,5 @@
 * [Meetup](#)
 
 ### Code Repository
-* [repo](#)
-
-### Change Log
-* [changes](#)
-
+* [CWE SDK for Node.js](https://github.com/OWASP/cwe-sdk-node)
+* [CWE SDK for Node.js](https://github.com/OWASP/cwe-tool)
