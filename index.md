@@ -2,21 +2,32 @@
 
 layout: col-sidebar
 title: OWASP CWE Toolkit
-tags: example-tag
+tags: cwe weakness cve capec
 level: 1
-type: 
-pitch: A very brief, one-line description of your project
+type: easy and accessible tooling to analyze, organize and manage CWE data 
+pitch: 
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## Mission
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+CWE Toolkit project aims to provide toolset that enables application security engineers to easily manage, manipulate and organize security data based on the CWE dataset.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## Why CWE Toolkit?
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The CWE Toolkit project addresses a key concern in which CWE data is hard to access programatically and perform various automations around it, such as filtering security vulnerabilities (CVEs) based on their CWE identifier, their relationships or a string matched expression.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+The goal of the CWE Toolkit project is to provide code SDKs and general tooling to programmatically manage CWE data based on APIs and Command Line utilities.
 
-type: code, tool, documentation, or other
+## Project Roadmap
+
+Following is a proposed project roadmap:
+
+* Create an easily consumable CWE dataset in various formats (currently, this data is exposed in limited format types)
+
+* Build an application language SDK, prioritizing Node.js first as package which due to its JavaScript core can also benefit frontend OWASP projects like DefectDojo, Dependency Track and others.
+
+* Build a command line application that is based on the SDK and allows to manage CWE data for one-off usage from a command prompt, a CI pipeline or other common CLI uses.
+
+* Serve an HTTP API to allow easy interaction with the CWE dataset in an online manner.
+
