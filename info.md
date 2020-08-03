@@ -7,14 +7,13 @@
 * [Builder](#)
 * [Breaker](#)
 
-### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
+### Downloads
+* [Official Binary Images](#)
+* [Official Docker Images](#)
 
 ### Code Repository
 * [CWE SDK for Node.js](https://github.com/OWASP/cwe-sdk-node)
 * [CWE SDK for Node.js](https://github.com/OWASP/cwe-tool)
 
 ### Licensing
-
-[Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0)
+* This project is licensed under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0)
