@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: OWASP CWE Toolkit
 tags: cwe weakness cve capec
-level: 1
+level: 2
 type: easy and accessible tooling to analyze, organize and manage CWE data 
 pitch: 
 
