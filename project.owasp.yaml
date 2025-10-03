@@ -1,0 +1,29 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Liran Tal
+    email: liran.tal@gmail.com
+    github: lirantal
+level: 2
+license:
+  - Apache-2.0
+name: OWASP CWE Toolkit
+pitch: Description for OWASP CWE Toolkit
+repositories:
+  - name: www-project-cwe-toolkit
+    url: https://github.com/OWASP/www-project-cwe-toolkit
+    description: OWASP Foundation Web Repository
+  - name: cwe-sdk-javascript
+    url: https://github.com/OWASP/cwe-sdk-javascript
+    description: A Common Weakness Enumeration (CWE) Node.js SDK compliant with MITRE / CAPEC
+  - name: cwe-tool
+    url: https://github.com/OWASP/cwe-tool
+    description: A command line CWE discovery tool based on OWASP / CAPSEC database of Common Weakness Enumeration.
+tags:
+  - cwe
+  - weakness
+  - cve
+  - capec
+type: documentation
+website: https://owasp.org/www-project-cwe-toolkit
